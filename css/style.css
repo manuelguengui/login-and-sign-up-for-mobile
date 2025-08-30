@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100dvh;
+  background-color: #151515;
+  color: #fdfdfd;
+}
+form {
+  padding: 40px 15px 10px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+h2  {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+}
+
+h2 + p {
+  margin-block: 14px 19px;
+}
+.field, .btn {
+  display: block;
+  width: 100%;
+  height: 43px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: none;
+  
+}
+.field {
+  background-color: #262626;
+  border: 1px solid #363636;
+  outline: none;
+  padding: 3px 10px;
+  margin-top: 4px;
+  
+}
+.btn {
+  margin-block: 8px;
+  font-weight: 500;
+  color: #fdfdfd;
+}
+a.btn {
+  border: 1px solid #fdfdfd;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.others {
+  display: flex;
+  justify-content: space-between;
+}
+.others label, .others a {
+  font-size: .95rem;
+  text-decoration: none;
+  color: #fdfdfd;
+  display: inline-flex;
+  gap: 5px;  
+}
+.remember {
+  
+}
+input.btn {
+  background-image: linear-gradient(45deg, #d44535,#883a90);
+  
+}
+form > div {
+  margin-block: 8px;
+}
+.link {
+  align-self: center;
+  justify-self: end;
+  margin-top: auto;
+}

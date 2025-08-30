@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#">
+   <h2>Create an account<span>✨</span></h2>
+
+   <p>Welcome! please enter your details.</p>
+
+   <div id="name">
+    <label for="name">Name</label>
+    <input type="text" id="name" class="field" name="name" required>
+   
+  </div>
+
+   <div id="email">
+    <label for="email">Email</label>
+    <input type="email" id="email" class="field" name="email" required>
+   </div>
+
+   <div id="password">
+    <label for="password">Password</label>
+    <div>
+      <input type="password" id="password" class="field" name="password" required>
+    </div>
+   </div>
+
+   <div class="others">
+    <label for="remember"> <input type="checkbox" name="remember" id="remember"> Must be at least 8 characters </label>
+   </div>
+
+   <div id="btn-fields">
+    <input type="submit" name="log" value="Sign Up" class="btn">
+    <a href="#" class="btn">Sign up with Google</a>
+    <a href="#" class="btn">Sign up with Facebook</a>
+   </div>
+
+
+   <p class="link">Already have an account? <a href="#">Log in</a></p>
+  </form>
+</body>
+</html>
