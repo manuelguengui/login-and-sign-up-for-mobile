@@ -16,24 +16,26 @@
 
    <div>
     <label for="name">Name</label>
-    <input type="text" id="name" class="field icon" name="name" required>
+    <input type="text" id="name" class="field icon" name="name" required  autocomplete="name">
    
   </div>
 
    <div>
     <label for="email">Email</label>
-    <input type="email" id="email" class="field icon" name="email" required>
+    <input type="email" id="email" class="field icon" name="email" required  autocomplete="email">
    </div>
 
    <div>
     <label for="password">Password</label>
     <div>
-      <input type="password" id="password" class="field icon" name="password" required>
+      <input type="password" id="password" class="field icon" name="password" required pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$"
+       title="A senha deve ter pelo menos 8 caracteres, incluindo letras maiúsculas, minúsculas e números."
+       autocomplete="new-password">
     </div>
    </div>
 
    <div class="others">
-    <label for="remember"> <input type="checkbox" name="remember" id="remember"> Must be at least 8 characters </label>
+    <label for="remember"> <input type="checkbox" name="remember" id="remember" > Must be at least 8 characters </label>
    </div>
 
    <div id="btn-fields">
