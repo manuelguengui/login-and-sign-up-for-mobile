@@ -16,12 +16,6 @@ form {
   flex-direction: column;
   justify-content: start;
 }
-h2  {
-  display: flex;
-  align-items: center;
-  font-weight: 200;
-  font-weight: bolder;
-}
 
 h2 + p {
   margin-block: 14px 19px;
@@ -106,4 +100,18 @@ input[type="text"] {
 }
 img {
   width: 24px;
+}
+
+@media (min-width: 500px){
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  form {
+    width: 450px;
+  }
+
+  h2, p{
+    text-align: center;
+  }
 }
