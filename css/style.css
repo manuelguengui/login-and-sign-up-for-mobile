@@ -20,6 +20,7 @@ h2  {
   display: flex;
   align-items: center;
   font-weight: 200;
+  font-weight: bolder;
 }
 
 h2 + p {
@@ -38,8 +39,10 @@ h2 + p {
   background-color: #262626;
   border: 1px solid #363636;
   outline: none;
-  padding: 3px 10px;
   margin-top: 4px;
+  color: #fdfdfd;
+  font-size: large;
+  padding: 3px 10px 3px 28px;
   
 }
 .btn {
@@ -53,6 +56,7 @@ a.btn {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  gap: 10px;
 }
 .others {
   display: flex;
@@ -63,6 +67,7 @@ a.btn {
   text-decoration: none;
   color: #fdfdfd;
   display: inline-flex;
+  
   gap: 5px;  
 }
 .remember {
@@ -79,4 +84,25 @@ form > div {
   align-self: center;
   justify-self: end;
   margin-top: auto;
+}
+.icon {
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 20px;
+}
+
+input[type="password"]{
+  background-image: url(../img/locked.png);
+
+}
+input[type="email"] {
+  background-image: url(../img/email.png);
+
+}
+input[type="text"] {
+  background-image: url(../img/user.png);
+
+}
+img {
+  width: 24px;
 }
